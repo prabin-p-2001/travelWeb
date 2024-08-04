@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Finger+Paint&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+/* font-family: "Zain", sans-serif;
+font-family: "Poppins", sans-serif;
+font-family: "Edu AU VIC WA NT Hand", cursive;
+font-family: "Caveat", cursive; */
+
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgba(154, 220, 212, 0.734); */
+    padding: 20px 8%;
+}
+
+ul {
+    display: flex;
+
+}
+
+ul li a {
+    margin: 20px;
+    color: rgba(14, 39, 1, 0.819);
+    font-size: 19px;
+    font-weight: 400;
+    transition: all ease-in-1s 0.5s;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(6, 6, 6);
+}
+
+.logo {
+    /* font-family: "Edu AU VIC WA NT Hand", cursive; */
+    font-family: "Caveat", cursive;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.761);
+}
+
+.carousel-item {
+    height: 90vh;
+}
+
+.header {
+    background: url('/images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    /* width: 100vw; */
+
+}
+
+
+
+.banner-header {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.banner-header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 50%;
+
+    h1 {
+        text-transform: capitalize;
+        font-size: 120px;
+        background: -webkit-linear-gradient(#eeeeee, #507250dd);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Poppins", sans-serif;
+        letter-spacing: .5px;
+    }
+
+    p{
+        background: -webkit-linear-gradient(#282727, #5b7250dd);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Poppins", sans-serif;
+        font-size: 19px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 0;
+        margin: 0;
+    }
+}
